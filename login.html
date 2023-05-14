@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mania - login</title>
+    <link rel="icon" type="image/icon" href="./img/logo.png">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <section id="section-login">
+            <h1>Login</h1>
+            <div class="d-flex justify-content-center">
+                <form method="post" action="" id="login">
+                    <p>
+                        <label for="usuario">Nome: </label>
+                        <input id="usuario" name="usuario" required="required" type="text"
+                            placeholder="Insira o seu usuário" class="form-control" />
+                    </p>
+                    <p>
+                        <label for="senha">Senha: </label>
+                        <input id="senha" name="senha" required="required" type="password"
+                            placeholder="Insira a sua senha" class="form-control" />
+                    </p>
+                    <p>
+                        <input type="button" value="login" class="btn btn-primary" id="bt-login" onclick="login()" />
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <section id="section-cadastro">
+            <div id="botao-cadastrar">
+                <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
+            </div>
+            <div id="form-cadastrar">
+
+                <h1>Criar minha conta</h1>
+                <p>Informe os seus dados abaixo para criar sua conta.</p>
+
+                <div class="d-flex justify-content-center">
+                    <form method="post" action="" id="login">
+                        <p>
+                            <label for="usuario">Usuário: </label>
+                            <input id="usuario" name="usuario" required="required" type="text"
+                                placeholder="ex. nome de usuário" class="form-control" />
+                        </p>
+                        <p>
+                            <label for="email">E-mail: </label>
+                            <input id="email" name="email" required="required" type="email"
+                                placeholder="seu@email.com.br" class="form-control" />
+                        </p>
+                        <p>
+                            <label for="senha">Senha: </label>
+                            <input id="senha" name="senha" required="required" type="password"
+                                placeholder="mínimo de 6 caracteres" class="form-control" />
+                        </p>
+                        <p>
+                            <input type="button" value="Cadastrar" class="btn btn-primary" id="bt-cadastrar"
+                                onclick="cadastro()" />
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <p></p>
+    </footer>
+
+    <button id="voltar-topo" type="button" class="btn btn-outline-primary" onclick="topo()" >&uarr; Voltar ao topo</button>
+
+  
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="./bootstrap/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-v3.7.0.min.js""> </script>
+    <script type="text/javascript" src="./js/jquery-script.js"></script>
+
+
+</body>
+
+</html>
