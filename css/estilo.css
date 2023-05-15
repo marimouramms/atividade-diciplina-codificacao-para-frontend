@@ -1,7 +1,42 @@
+body {
+    margin: 0 auto;
+}
+
 /*cabeçalho*/
-header img{
-    height: 50px;
-    width: 50px;
+header #topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .link-topo {
+    background-color: #0077b6;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+header .img-logo{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background: none; 
+}
+header .img-logo:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+} 
+header .img-banner{
+    position: relative;
+    width: 30%;
+    right: 50%;
+    left: 35%;
+ 
+    
+} 
+nav {
+    margin: 2px auto;
+   
 }
 
 /*Conteudo principal*/

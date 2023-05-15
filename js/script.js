@@ -16,7 +16,7 @@ function login() {
     var usuario = document.getElementById("usuario").value;
     var senha = document.getElementById("senha").value;
 
-    if (usuario == 'admin' && senha == '1234') {
+    if (usuario == 'admin' && senha == '123456') {
         window.location = "index.html";
         logado = 1;
 

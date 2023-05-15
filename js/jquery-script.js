@@ -11,8 +11,3 @@ $(document).ready(function(){
 
     });
 });
-
-$(function(){
-    03     $("nav").sideNav();
-    04 });
-    05 </script>
